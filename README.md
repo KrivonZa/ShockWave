@@ -41,7 +41,7 @@ Shockwave is a modern, real-time chat website designed to provide seamless commu
   - Firebase Authentication
 - **Deployment:**
   - Vite for building the application
-  - Hosted on [Insert Hosting Platform]
+  - Hosted on [Actually I don't have much money yet so yeah, LOCALHOST IS DA BEST:)!]
 
 ## Installation
 
@@ -49,3 +49,19 @@ Shockwave is a modern, real-time chat website designed to provide seamless commu
    ```bash
    git clone https://github.com/yourusername/shockwave.git
    cd shockwave
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Start the development server:
+   ```bash
+   npm run start
+
+4. Open your browser and navigate to http://localhost:3005 to view the site.
+
+## Usage
+- **Register a new account or log in with your existing credentials.**
+- **Start a chat by joining a group or sending a private message.**
+- **Customize your chat environment by selecting a theme from the settings menu.**
+- **Enjoy real-time conversations with friends and colleagues.**
