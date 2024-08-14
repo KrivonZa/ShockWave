@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 export const Homepage = () => {
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     AOS.init({
       duration: 1000, // animation duration
       once: true, // whether animation should happen only once
@@ -13,7 +14,7 @@ export const Homepage = () => {
 
   return (
     <div className="text-[var(--primary-text-color)] my-10 mx-36 text-lg">
-      <div className="flex items-center justify-center h-[65vh] flex-col" data-aos="fade-up">
+      <div className="flex items-center justify-center h-[65vh] flex-col" data-aos="fade-down">
         <div className="text-5xl font-semibold text-center">ShockWave</div>
         <div className="font-normal text-center mt-4">Unleash the Power of Instant Messaging with ShockWave – Where Speed Meets Versatility</div>
       </div>
@@ -32,8 +33,14 @@ export const Homepage = () => {
         </div>
 
         {/* Tính năng của ShockWave */}
+        <div className="text-center text-5xl font-extrabold">Feature</div>
         {/* Nhanh chóng, tiện lợi */}
-        <div></div>
+        <div className="grid grid-flow-col grid-cols-2 gap-x-6 h-[65vh] p-6">
+          <div>
+            <div className="text-4xl font-extrabold mb-4">Fast and Convenient</div>
+            <div>Shockwave offers lightning-fast, convenient messaging at your fingertips. Experience quick, easy navigation with an intuitive interface designed for seamless communication. Whether you're chatting in groups or one-on-one, Shockwave ensures a smooth and responsive experience every time.</div>
+          </div>
+        </div>
 
         {/* Đầy đủ kho emoji và gif */}
         <div></div>
