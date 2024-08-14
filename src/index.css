@@ -11,7 +11,7 @@
 
   --primary-text-color: rgba(255, 255, 255, 0.87);
   --secondary-color: rgb(56, 191, 248);
-  background-color: #0E001A;
+  background: #0E001A;
 }
 
 @layer utilities {
