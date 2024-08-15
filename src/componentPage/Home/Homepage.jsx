@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 export const Homepage = () => {
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     AOS.init({
       duration: 1000, // animation duration
       once: true, // whether animation should happen only once

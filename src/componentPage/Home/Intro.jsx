@@ -7,13 +7,13 @@ import './styles.css'; // File CSS cho styling
 export const Intro = () => {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      navigate('/home');
-    }, 4000); // Chuyển hướng sau 4 giây
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     navigate('/login');
+  //   }, 4000); // Chuyển hướng sau 4 giây
 
-    return () => clearTimeout(timer); // Xóa timer khi component unmount
-  }, [navigate]);
+  //   return () => clearTimeout(timer); // Xóa timer khi component unmount
+  // }, [navigate]);
 
   const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 1000 });
   const slideIn = useSpring({

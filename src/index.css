@@ -11,7 +11,7 @@
 
   --primary-text-color: rgba(255, 255, 255, 0.87);
   --secondary-color: rgb(56, 191, 248);
-  background: #0E001A;
+  background: #021526;
 }
 
 @layer utilities {
@@ -20,6 +20,6 @@
   }
 
   .shadow-logo-glow {
-    box-shadow: 0 0 30px rgb(56, 191, 248);
+    box-shadow: 0 0 30px rgb(247, 251, 252);
   }
 }
