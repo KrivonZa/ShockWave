@@ -9,9 +9,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --primary-text-color: rgba(255, 255, 255, 0.87);
+  --primary-text-color: rgb(63, 114, 175);
   --secondary-color: rgb(56, 191, 248);
-  background: #021526;
+  background: #F7FBFC;
 }
 
 @layer utilities {
