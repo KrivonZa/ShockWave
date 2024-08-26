@@ -1,0 +1,35 @@
+/* src/components/Intro.css */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(0deg, #003687 0%, #769FCD 50%, #F9F7F7 140%);
+  color: white;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  animation: fadeInText 2s ease-in-out;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  animation: fadeInText 2s ease-in-out 1s;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Button {
+  color: black;
+}
