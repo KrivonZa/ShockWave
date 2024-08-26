@@ -26,11 +26,13 @@ export const Intro = () => {
   return (
     <div className="intro">
       <animated.div style={fadeIn}>
-        <img src="/image/ShockWave.png" alt="Logo" className="relative z-10 logo shadow-logo-glow rounded-full" />
+        <img src="/image/ShockWave.png" alt="Logo" className="relative z-10 logo shadow-logo-glow rounded-full mb-5 w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40" />
       </animated.div>
       <animated.div style={slideIn}>
-        <h1>Welcome to ShockWave</h1>
-        <p>Unleash the Power of Instant Messaging with ShockWave – Where Speed Meets Versatility</p>
+        <div className='text-center'>
+          <div className='text-base font-medium sm:text-lg md:text-2xl'>Welcome to ShockWave</div>
+          <div className='text-sm sm:text-base md:text-lg'>Fast & Versatile Messaging</div>
+        </div>
       </animated.div>
     </div>
   );
